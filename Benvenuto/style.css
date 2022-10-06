@@ -1,0 +1,143 @@
+/* ? reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+/* ? style header */
+.header-img{
+    text-align: center;
+}
+
+.logo-quisviluppo{
+    width: 300px;
+    margin-top: 30px;
+}
+
+.p-quisviluppo{
+    margin-top: 10px;
+}
+
+.header-divider{
+    margin-top: 25px;
+    height: 10px;
+    background: rgb(255,54,65);
+    background: linear-gradient(270deg, rgba(255,54,65,1) 0%, rgba(255,203,29,1) 57%);
+}
+
+/* ? main style welcome */
+.text-main{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 30px;
+    line-height: 160%;
+}
+
+.highlight-orange{
+    color: #FD8023;
+}
+
+.container-banners{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* ? container blu */
+.banner-blue-cont{
+    margin-top: 40px;
+    width: 500px;
+    height: 110px;
+    border: double 4px transparent;
+    border-radius: 30px;
+    background: linear-gradient(61deg, rgba(118,11,255,1) 0%, rgba(45,175,230,1) 57%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-blue{
+    width: 480px;
+    height: 90px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.par-banner-blue{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 15px;
+    background: linear-gradient(61deg, rgba(118,11,255,1) 0%, rgba(45,175,230,1) 57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* ? container arancione */
+.banner-orange-cont{
+    margin-top: 30px;
+    width: 500px;
+    height: 110px;
+    border: double 4px transparent;
+    border-radius: 30px;
+    background: linear-gradient(61deg, rgba(255,54,65,1) 0%, rgba(253,126,36,1) 57%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-orange{
+    width: 480px;
+    height: 90px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.par-banner-orange{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 15px;
+    color: #FD8023;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* ? footer */
+
+footer{
+    text-align: center;
+}
+
+.par-carmen{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+.info-footer{
+    margin-top: 40px;
+    font-size: 20px;
+    line-height: 160%;
+}
+
+.site{
+    margin-top: 10px;
+}
+
+.vemaweb-info{
+    font-size: 18px;
+    line-height: 160%;
+    margin-top: 40px;
+}
+
+.footer-divider{
+    margin-top: 25px;
+    height: 10px;
+    background: rgb(255,54,65);
+    background: linear-gradient(270deg, rgba(255,54,65,1) 0%, rgba(255,203,29,1) 57%);
+}
