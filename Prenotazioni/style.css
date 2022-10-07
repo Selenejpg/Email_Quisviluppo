@@ -28,7 +28,84 @@
 }
 
 
+/* main style */
+.highlight-orange{
+    color: #FD8023;
+}
 
+.main-text{
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 160%;
+    margin-top: 30px;
+}
+
+.container-banners{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.banner-blue-cont{
+    margin-top: 40px;
+    width: 600px;
+    height: 340px;
+    border: double 4px transparent;
+    border-radius: 30px;
+    background: linear-gradient(61deg, rgba(118,11,255,1) 0%, rgba(45,175,230,1) 57%);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-blue{
+    width: 580px;
+    height: 320px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.par-banner-blue{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    background: linear-gradient(61deg, rgba(118,11,255,1) 0%, rgba(45,175,230,1) 57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.appointment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-appointment{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.text-card{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 30px;
+    line-height: 160%;
+}
+
+.link{
+    font-weight: bold;
+}
+
+.text-riepilogo{
+    font-size: 22px;
+    font-weight: bold;
+}
 
 
 /* ? footer */
@@ -44,7 +121,7 @@ footer{
 }
 
 .info-footer{
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 20px;
     line-height: 160%;
 }
