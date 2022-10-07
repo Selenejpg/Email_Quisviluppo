@@ -33,6 +33,66 @@
 
 
 /* ? main style */
+.text-main{
+    text-align: center;
+    font-size: 26px;
+    margin-top: 40px;
+    line-height: 160%;
+    font-weight: bold;
+}
+
+.main-subtext{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 160%;
+}
+
+
+/* card */
+.card-position{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card{
+    border: 1px solid lightgray;
+    width: 41%;
+    height: 300px;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow:  rgba(0,0,0,0.3) 0px 12px 29px 0px;;
+}
+
+.container-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.iva{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.total{
+    margin-top: 30px;
+}
+
+.divider{
+    height: 5px;
+    background: linear-gradient(61deg, rgba(118,11,255,1) 0%, rgba(45,175,230,1) 57%);
+}
+
+.text{
+    background: linear-gradient(61deg, rgba(118,11,255,1) 0%, rgba(45,175,230,1) 57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 
 
@@ -45,8 +105,8 @@
 }
 
 .banner-orange-cont{
-    margin-top: 30px;
-    width: 500px;
+    margin-top: 60px;
+    width: 600px;
     height: 110px;
     border: double 4px transparent;
     border-radius: 30px;
@@ -59,7 +119,7 @@
 }
 
 .banner-orange{
-    width: 480px;
+    width: 580px;
     height: 90px;
     background-color: white;
     border-radius: 20px;
@@ -88,7 +148,7 @@ footer{
 }
 
 .info-footer{
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 20px;
     line-height: 160%;
 }
