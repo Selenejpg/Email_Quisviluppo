@@ -12,7 +12,7 @@
     <div class="container">
         <header>
             <div class="header-img">
-                <img class="logo-quisviluppo" src="../assets/images/quisviluppo.svg" alt="">
+                <div class="logo-quisviluppo">Quisviluppo.com</div>
                 <p class="p-quisviluppo">Rete di sviluppo economico nazionale</p>
             </div>
             <div class="header-divider"></div>
@@ -20,20 +20,19 @@
     
         <main>
             <div>
-                <p class="main-text">Gentile <span class="highlight-orange">Mario</span>, <br> la prenotazione per partecipare alla <br> video call con Manuel Verrecchia è <br> andata a buon fine.</p>
+                <p class="main-text">Gentile <span class="highlight-orange">{{ $parameters['name'] }}</span>, <br> la prenotazione per partecipare alla <br> video call con Manuel Verrecchia è <br> andata a buon fine.</p>
             </div>
             <div class="container-banners">
                 <div class="banner-blue-cont">
                     <div class="banner-blue">
                         <div class="appointment">
-                            <img class="img-appointment" src="../assets/images/calendar-check-regular.svg" alt="">
                             <p class="text-riepilogo">Riepilogo appuntamento</p>
                         </div>
-                        <p class="par-banner-blue">mercoledì 28 ottobre ore 21:00</p>
+                        <p class="par-banner-blue">{{ $parameters['appointmentTime'] }}</p>
                         <div class="text-card">
                             <div>Questo è il link per accedere alla video chiamata</div>
-                            <div class="link">#linkdametterediv</div>
-                            <div>che si attiverà 5 minuti prima dell’appuntamento</div>     
+                            <div class="link">{{ $parameters['appointmentLink'] }}</div>
+                            <div>che si attiverà 5 minuti prima dell’appuntamento</div>
                         </div>
                     </div>
                 </div>
@@ -59,7 +58,8 @@
             </div>
             <div class="footer-divider"></div>
         </footer>
+
     </div>
-    
+
 </body>
 </html>

@@ -18,9 +18,12 @@ body{
 }
 
 .logo-quisviluppo{
-    width: 200px;
-    margin-top: 20px;
-}
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: bold;
+ }
 
 .p-quisviluppo{
     margin-top: 10px;
@@ -30,8 +33,7 @@ body{
 .header-divider{
     margin-top: 25px;
     height: 10px;
-    background: rgb(255,54,65);
-    background: linear-gradient(270deg, rgba(255,54,65,1) 0%, rgba(255,203,29,1) 57%);
+    background-color: #FD8023;;
 }
 
 .highlight-orange{
@@ -91,13 +93,11 @@ body{
 
 .divider{
     height: 5px;
-    background: linear-gradient(61deg, rgba(118,11,255,1) 0%, rgba(45,175,230,1) 57%);
+    background-color: rgba(45,175,230,1);
 }
 
 .text{
-    background: linear-gradient(61deg, rgba(118,11,255,1) 0%, rgba(45,175,230,1) 57%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgba(45,175,230,1);
 }
 
 
@@ -112,14 +112,11 @@ body{
 }
 
 .banner-orange-cont{
-    margin-top: 60px;
+    margin-top: 30px;
     width: 300px;
     height: 150px;
-    border: double 4px transparent;
+    border: 6px solid #FD8023;
     border-radius: 2rem;
-    background: linear-gradient(61deg, rgba(255,54,65,1) 0%, rgba(253,126,36,1) 57%);
-    background-origin: border-box;
-    background-clip: padding-box, border-box;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -133,9 +130,9 @@ body{
 }
 
 .par-banner-orange{
-    font-size: 22px;
+    font-size: 24px;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 22px;
     color: #FD8023;
     padding-left: 30px;
     padding-right: 30px;
@@ -173,17 +170,12 @@ footer{
 .footer-divider{
     margin-top: 25px;
     height: 10px;
-    background: rgb(255,54,65);
-    background: linear-gradient(270deg, rgba(255,54,65,1) 0%, rgba(255,203,29,1) 57%);
+    background-color: #FD8023;;
 }
 
 
 /* media queries */
 @media screen and (min-width: 600px) {
-    .logo-quisviluppo{
-        width: 300px;
-        margin-top: 30px;
-    }
 
     .p-quisviluppo{
         margin-top: 10px;

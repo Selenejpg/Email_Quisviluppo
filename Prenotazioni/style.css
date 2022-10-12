@@ -21,8 +21,11 @@
 }
 
 .logo-quisviluppo{
-    width: 200px;
-    margin-top: 20px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-weight: bold;
 }
 
 .p-quisviluppo{
@@ -32,8 +35,7 @@
 .header-divider{
     margin-top: 25px;
     height: 10px;
-    background: rgb(255,54,65);
-    background: linear-gradient(270deg, rgba(255,54,65,1) 0%, rgba(255,203,29,1) 57%);
+    background-color: #FD8023;;
 }
 
 
@@ -60,11 +62,8 @@
     margin-top: 40px;
     width: 320px;
     height: 620px;
-    border: double 4px transparent;
     border-radius: 2rem;
-    background: linear-gradient(61deg, rgba(118,11,255,1) 0%, rgba(45,175,230,1) 57%);
-    background-origin: border-box;
-    background-clip: padding-box, border-box;
+    border: 6px solid rgba(45,175,230,1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,10 +82,7 @@
     text-align: center;
     padding-top: 30px;
     font-weight: bold;
-    background: linear-gradient(61deg, rgba(118,11,255,1) 0%, rgba(45,175,230,1) 57%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgba(45,175,230,1);
 }
 .par-banner-blue:first-letter {
     text-transform: uppercase;
@@ -96,12 +92,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.img-appointment{
-    width: 30px;
-    height: 30px;
-    margin-right: 20px;
 }
 
 .text-card{
@@ -152,16 +142,10 @@ footer{
 .footer-divider{
     margin-top: 25px;
     height: 10px;
-    background: rgb(255,54,65);
-    background: linear-gradient(270deg, rgba(255,54,65,1) 0%, rgba(255,203,29,1) 57%);
+    background-color: #FD8023;;
 }
 
 @media screen and (min-width: 600px) {
-    .logo-quisviluppo{
-        width: 300px;
-        margin-top: 30px;
-    }
-
     .banner-blue-cont{
         width: 600px;
         height: 340px;
