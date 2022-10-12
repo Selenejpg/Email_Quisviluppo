@@ -6,14 +6,24 @@
     font-family: 'Outfit', sans-serif;
 }
 
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-email{
+    max-width: 600px;
+}
+
 /* ? style header */
 .header-img{
     text-align: center;
 }
 
 .logo-quisviluppo{
-    width: 300px;
-    margin-top: 30px;
+    width: 200px;
+    margin-top: 20px;
 }
 
 .p-quisviluppo{
@@ -63,6 +73,13 @@
     border-radius: 20px;
     padding: 30px;
     box-shadow:  rgba(0,0,0,0.3) 0px 12px 29px 0px;;
+    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .card{
+        
+    }
 }
 
 .container-text{
@@ -106,7 +123,7 @@
 
 .banner-orange-cont{
     margin-top: 60px;
-    width: 600px;
+    width: 530px;
     height: 110px;
     border: double 4px transparent;
     border-radius: 30px;
@@ -119,7 +136,7 @@
 }
 
 .banner-orange{
-    width: 580px;
+    width: 510px;
     height: 90px;
     background-color: white;
     border-radius: 20px;
@@ -168,4 +185,27 @@ footer{
     height: 10px;
     background: rgb(255,54,65);
     background: linear-gradient(270deg, rgba(255,54,65,1) 0%, rgba(255,203,29,1) 57%);
+}
+
+
+/* media queries */
+@media screen and (min-width: 600px) {
+    .logo-quisviluppo{
+        width: 300px;
+        margin-top: 30px;
+    }
+
+    .p-quisviluppo{
+        margin-top: 10px;
+        font-size: 16px;
+    }
+
+    .text-main{
+        font-size: 30px;
+        background-color: aqua;
+    }
+
+    .main-subtext{
+        font-size: 16px;
+    }
 }
