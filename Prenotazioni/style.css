@@ -6,7 +6,7 @@
     font-family: 'Outfit', sans-serif;
 }
 
-body{
+.container{
     max-width: 600px;
     margin: 0 auto;
 
@@ -84,6 +84,7 @@ body{
     padding-top: 30px;
     font-weight: bold;
     background: linear-gradient(61deg, rgba(118,11,255,1) 0%, rgba(45,175,230,1) 57%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

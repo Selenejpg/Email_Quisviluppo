@@ -7,14 +7,10 @@
 }
 
 body{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-.flex-email{
-    max-width: 600px;
-}
 
 /* ? style header */
 .header-img{
@@ -28,6 +24,7 @@ body{
 
 .p-quisviluppo{
     margin-top: 10px;
+    font-size: 16px;
 }
 
 .header-divider{
@@ -45,14 +42,14 @@ body{
 /* ? main style */
 .text-main{
     text-align: center;
-    font-size: 26px;
+    font-size: 18px;
     margin-top: 40px;
     line-height: 160%;
     font-weight: bold;
 }
 
 .main-subtext{
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     margin-top: 40px;
     line-height: 160%;
@@ -68,31 +65,24 @@ body{
 
 .card{
     border: 1px solid lightgray;
-    width: 41%;
-    height: 300px;
+    width: 96%;
+    height: 250px;
     border-radius: 20px;
     padding: 30px;
     box-shadow:  rgba(0,0,0,0.3) 0px 12px 29px 0px;;
-    width: 100%;
 }
 
-@media screen and (max-width: 500px) {
-    .card{
-        
-    }
-}
 
 .container-text{
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 14px;
 }
 
 .iva{
-    margin-top: 50px;
-    margin-bottom: 40px;
+    margin: 30px 0;
 }
 
 .total{
@@ -123,10 +113,10 @@ body{
 
 .banner-orange-cont{
     margin-top: 60px;
-    width: 530px;
-    height: 110px;
+    width: 300px;
+    height: 150px;
     border: double 4px transparent;
-    border-radius: 30px;
+    border-radius: 2rem;
     background: linear-gradient(61deg, rgba(255,54,65,1) 0%, rgba(253,126,36,1) 57%);
     background-origin: border-box;
     background-clip: padding-box, border-box;
@@ -136,14 +126,14 @@ body{
 }
 
 .banner-orange{
-    width: 510px;
-    height: 90px;
+    width: 280px;
+    height: 130px;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 1.5rem;
 }
 
 .par-banner-orange{
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
     padding-top: 15px;
     color: #FD8023;
@@ -197,15 +187,45 @@ footer{
 
     .p-quisviluppo{
         margin-top: 10px;
-        font-size: 16px;
-    }
-
-    .text-main{
-        font-size: 30px;
-        background-color: aqua;
+        font-size: 24px;
     }
 
     .main-subtext{
-        font-size: 16px;
+        font-size: 20px;
     }
+
+    .text-main{
+        font-size: 26px;
+    }
+
+    .banner-orange-cont{
+        width: 530px;
+        height: 110px;
+    }
+
+
+    .banner-orange{
+        width: 510px;
+        height: 90px;
+    }
+
+    .card{
+        width: 96%;
+        height: 300px;
+    }
+
+    .container-text{
+        font-size: 25px;
+    }
+
+    .iva{
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    
+    .total{
+        margin-top: 30px;
+    }
+    
+
 }
