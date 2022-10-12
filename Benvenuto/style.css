@@ -6,14 +6,19 @@
     font-family: 'Outfit', sans-serif;
 }
 
+body{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 /* ? style header */
 .header-img{
     text-align: center;
 }
 
 .logo-quisviluppo{
-    width: 300px;
-    margin-top: 30px;
+    width: 200px;
+    margin-top: 20px;
 }
 
 .p-quisviluppo{
@@ -48,10 +53,10 @@
 /* ? container blu */
 .banner-blue-cont{
     margin-top: 40px;
-    width: 500px;
-    height: 110px;
+    width: 300px;
+    height: 150px;
     border: double 4px transparent;
-    border-radius: 30px;
+    border-radius: 2rem;
     background: linear-gradient(61deg, rgba(118,11,255,1) 0%, rgba(45,175,230,1) 57%);
     background-origin: border-box;
     background-clip: padding-box, border-box;
@@ -61,10 +66,10 @@
 }
 
 .banner-blue{
-    width: 480px;
-    height: 90px;
+    width: 280px;
+    height: 130px;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 1.5rem;
 }
 
 .par-banner-blue{
@@ -79,10 +84,10 @@
 /* ? container arancione */
 .banner-orange-cont{
     margin-top: 30px;
-    width: 500px;
-    height: 110px;
+    width: 300px;
+    height: 150px;
     border: double 4px transparent;
-    border-radius: 30px;
+    border-radius: 2rem;
     background: linear-gradient(61deg, rgba(255,54,65,1) 0%, rgba(253,126,36,1) 57%);
     background-origin: border-box;
     background-clip: padding-box, border-box;
@@ -92,10 +97,10 @@
 }
 
 .banner-orange{
-    width: 480px;
-    height: 90px;
+    width: 280px;
+    height: 130px;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 1.5rem;
 }
 
 .par-banner-orange{
@@ -140,4 +145,35 @@ footer{
     height: 10px;
     background: rgb(255,54,65);
     background: linear-gradient(270deg, rgba(255,54,65,1) 0%, rgba(255,203,29,1) 57%);
+}
+
+@media screen and (min-width: 600px) {
+    .logo-quisviluppo{
+        width: 300px;
+        margin-top: 30px;
+    }
+
+    .banner-blue-cont{
+        width: 500px;
+        height: 110px;
+    }
+    
+    .banner-blue{
+        width: 480px;
+        height: 90px;
+    }
+
+
+    .banner-orange-cont{
+        width: 500px;
+        height: 110px;
+    }
+    
+    .banner-orange{
+        width: 480px;
+        height: 90px;
+    }
+    
+    
+    
 }
